@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "kind": "ledger",
+  "generated_at": "2026-07-11T10:24:21+00:00",
+  "strategy": {
+    "id": "trend_ma_crossover",
+    "family": "trend",
+    "instrument": "us/SPY"
+  },
+  "cost_model": {
+    "version": 1,
+    "leg": "us"
+  },
+  "sizing": {
+    "policy": "fixed_fractional",
+    "rounding": "floor_to_unit"
+  },
+  "init_cash_usd": 100000.0,
+  "fill_doctrine": "signal on bar t fills at bar t+1 open; slippage adverse; commission per unit",
+  "fills": [
+    {
+      "date": "2018-10-17",
+      "action": "buy",
+      "units": 356,
+      "fill_price_usd": 280.58022244262696,
+      "commission_usd": 1.78,
+      "slippage_usd": 49.91832043457031,
+      "cash_after_usd": 111.66081042480073
+    },
+    {
+      "date": "2018-12-10",
+      "action": "sell",
+      "units": 356,
+      "fill_price_usd": 263.2383101196289,
+      "commission_usd": 1.78,
+      "slippage_usd": 46.87985913085937,
+      "cash_after_usd": 93822.7192130127
+    },
+    {
+      "date": "2019-04-02",
+      "action": "buy",
+      "units": 327,
+      "fill_price_usd": 286.1830285491943,
+      "commission_usd": 1.635,
+      "slippage_usd": 46.767541397094725,
+      "cash_after_usd": 239.23387742615887
+    },
+    {
+      "date": "2020-03-31",
+      "action": "sell",
+      "units": 327,
+      "fill_price_usd": 260.4297175598145,
+      "commission_usd": 1.635,
+      "slippage_usd": 42.60155960083008,
+      "cash_after_usd": 85398.1165194855
+    },
+    {
+      "date": "2020-07-10",
+      "action": "buy",
+      "units": 271,
+      "fill_price_usd": 314.467152557373,
+      "commission_usd": 1.355,
+      "slippage_usd": 42.58900466918946,
+      "cash_after_usd": 176.16317643741786
+    },
+    {
+      "date": "2022-03-15",
+      "action": "sell",
+      "units": 271,
+      "fill_price_usd": 419.56010401916507,
+      "commission_usd": 1.355,
+      "slippage_usd": 56.87883351135254,
+      "cash_after_usd": 113875.59636563115
+    },
+    {
+      "date": "2023-02-03",
+      "action": "buy",
+      "units": 276,
+      "fill_price_usd": 411.79579133605955,
+      "commission_usd": 1.3800000000000001,
+      "slippage_usd": 56.79941949462891,
+      "cash_after_usd": 218.57795687871112
+    }
+  ]
+}

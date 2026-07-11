@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "dashboard_manifest",
+  "generated_at": "2026-07-11T10:24:25+00:00",
+  "note": "published outputs only: strategy parameters, cost-model calibration and sizing parameters are redacted at the private/public boundary (ADR-0001)",
+  "execution_note": "signals only - a human executes manually; nothing here places orders",
+  "systems": [
+    {
+      "id": "us-spy",
+      "instrument": "us/SPY",
+      "leg": "us",
+      "symbol": "SPY",
+      "strategy_id": "trend_ma_crossover",
+      "family": "trend",
+      "label": "SPY \u00b7 trend",
+      "native_currency": "USD",
+      "reporting_currency": "THB",
+      "paths": {
+        "signals": "systems/us-spy/signals.json",
+        "ledger": "systems/us-spy/ledger.json",
+        "portfolio": "systems/us-spy/portfolio.json"
+      }
+    }
+  ]
+}
