@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "kind": "ledger",
+  "generated_at": "2026-07-11T11:01:27+00:00",
+  "strategy": {
+    "id": "trend_ma_crossover_gold",
+    "family": "trend",
+    "instrument": "gold/XAUUSD"
+  },
+  "cost_model": {
+    "version": 2,
+    "leg": "gold"
+  },
+  "sizing": {
+    "policy": "fixed_fractional",
+    "rounding": "floor_to_unit"
+  },
+  "init_cash_usd": 100000.0,
+  "fill_doctrine": "signal on bar t fills at bar t+1 open; slippage adverse; commission per unit",
+  "fills": [
+    {
+      "date": "2005-10-18",
+      "action": "buy",
+      "units": 211,
+      "fill_price_usd": 472.236,
+      "commission_usd": 0.0,
+      "slippage_usd": 49.796,
+      "cash_after_usd": 358.2039999999979
+    },
+    {
+      "date": "2006-10-24",
+      "action": "sell",
+      "units": 211,
+      "fill_price_usd": 575.3122000000001,
+      "commission_usd": 0.0,
+      "slippage_usd": 60.72580000000001,
+      "cash_after_usd": 121749.07820000002
+    },
+    {
+      "date": "2006-12-15",
+      "action": "buy",
+      "units": 195,
+      "fill_price_usd": 624.061875,
+      "commission_usd": 0.0,
+      "slippage_usd": 60.815625000000004,
+      "cash_after_usd": 57.012575000015204
+    },
+    {
+      "date": "2008-09-04",
+      "action": "sell",
+      "units": 195,
+      "fill_price_usd": 805.347125,
+      "commission_usd": 0.0,
+      "slippage_usd": 78.560625,
+      "cash_after_usd": 157099.70195000002
+    },
+    {
+      "date": "2009-02-16",
+      "action": "buy",
+      "units": 166,
+      "fill_price_usd": 942.9712499999999,
+      "commission_usd": 0.0,
+      "slippage_usd": 78.2275,
+      "cash_after_usd": 566.4744500000379
+    },
+    {
+      "date": "2012-04-20",
+      "action": "sell",
+      "units": 166,
+      "fill_price_usd": 1640.6792500000001,
+      "commission_usd": 0.0,
+      "slippage_usd": 136.24450000000002,
+      "cash_after_usd": 272919.22995000007
+    },
+    {
+      "date": "2012-09-24",
+      "action": "buy",
+      "units": 154,
+      "fill_price_usd": 1763.38125,
+      "commission_usd": 0.0,
+      "slippage_usd": 135.7125,
+      "cash_after_usd": 1358.5174500001012
+    },
+    {
+      "date": "2013-02-26",
+      "action": "sell",
+      "units": 154,
+      "fill_price_usd": 1589.70475,
+      "commission_usd": 0.0,
+      "slippage_usd": 122.4685,
+      "cash_after_usd": 246173.0489500001
+    },
+    {
+      "date": "2014-03-25",
+      "action": "buy",
+      "units": 187,
+      "fill_price_usd": 1314.1567499999999,
+      "commission_usd": 0.0,
+      "slippage_usd": 122.81225,
+      "cash_after_usd": 425.736700000125
+    },
+    {
+      "date": "2014-06-02",
+      "action": "sell",
+      "units": 187,
+      "fill_price_usd": 1246.626375,
+      "commission_usd": 0.0,
+      "slippage_usd": 116.617875,
+      "cash_after_usd": 233544.86882500013
+    },
+    {
+      "date": "2014-07-10",
+      "action": "buy",
+      "units": 174,
+      "fill_price_usd": 1340.9201249999999,
+      "commission_usd": 0.0,
+      "slippage_usd": 116.60175,
+      "cash_after_usd": 224.76707500015618
+    },
+    {
+      "date": "2014-09-22",
+      "action": "sell",
+      "units": 174,
+      "fill_price_usd": 1212.89325,
+      "commission_usd": 0.0,
+      "slippage_usd": 105.5745,
+      "cash_after_usd": 211268.19257500017
+    },
+    {
+      "date": "2016-03-01",
+      "action": "buy",
+      "units": 170,
+      "fill_price_usd": 1237.11825,
+      "commission_usd": 0.0,
+      "slippage_usd": 105.1025,
+      "cash_after_usd": 958.0900750001601
+    },
+    {
+      "date": "2016-11-22",
+      "action": "sell",
+      "units": 170,
+      "fill_price_usd": 1211.643875,
+      "commission_usd": 0.0,
+      "slippage_usd": 103.04125,
+      "cash_after_usd": 206937.54882500015
+    },
+    {
+      "date": "2017-05-26",
+      "action": "buy",
+      "units": 163,
+      "fill_price_usd": 1265.682525,
+      "commission_usd": 0.0,
+      "slippage_usd": 103.101575,
+      "cash_after_usd": 631.2972500001488
+    },
+    {
+      "date": "2018-06-26",
+      "action": "sell",
+      "units": 163,
+      "fill_price_usd": 1259.66985,
+      "commission_usd": 0.0,
+      "slippage_usd": 102.71445,
+      "cash_after_usd": 205957.48280000014
+    },
+    {
+      "date": "2019-01-24",
+      "action": "buy",
+      "units": 160,
+      "fill_price_usd": 1284.34185,
+      "commission_usd": 0.0,
+      "slippage_usd": 102.696,
+      "cash_after_usd": 462.7868000001472
+    },
+    {
+      "date": "2021-02-22",
+      "action": "sell",
+      "units": 160,
+      "fill_price_usd": 1806.5462750000002,
+      "commission_usd": 0.0,
+      "slippage_usd": 144.596,
+      "cash_after_usd": 289510.1908000002
+    },
+    {
+      "date": "2021-07-06",
+      "action": "buy",
+      "units": 159,
+      "fill_price_usd": 1810.7549249999997,
+      "commission_usd": 0.0,
+      "slippage_usd": 143.883075,
+      "cash_after_usd": 1600.1577250002301
+    },
+    {
+      "date": "2021-08-10",
+      "action": "sell",
+      "units": 159,
+      "fill_price_usd": 1722.488325,
+      "commission_usd": 0.0,
+      "slippage_usd": 137.00632499999998,
+      "cash_after_usd": 275475.80140000023
+    },
+    {
+      "date": "2021-11-30",
+      "action": "buy",
+      "units": 152,
+      "fill_price_usd": 1805.3022,
+      "commission_usd": 0.0,
+      "slippage_usd": 137.1344,
+      "cash_after_usd": 1069.867000000202
+    },
+    {
+      "date": "2022-02-03",
+      "action": "sell",
+      "units": 152,
+      "fill_price_usd": 1791.80365,
+      "commission_usd": 0.0,
+      "slippage_usd": 136.2452,
+      "cash_after_usd": 273424.0218000002
+    },
+    {
+      "date": "2022-02-17",
+      "action": "buy",
+      "units": 144,
+      "fill_price_usd": 1894.3967249999998,
+      "commission_usd": 0.0,
+      "slippage_usd": 136.3284,
+      "cash_after_usd": 630.8934000002337
+    },
+    {
+      "date": "2022-07-08",
+      "action": "sell",
+      "units": 144,
+      "fill_price_usd": 1737.3309000000002,
+      "commission_usd": 0.0,
+      "slippage_usd": 125.1504,
+      "cash_after_usd": 250806.54300000027
+    },
+    {
+      "date": "2023-01-18",
+      "action": "buy",
+      "units": 130,
+      "fill_price_usd": 1921.6603499999999,
+      "commission_usd": 0.0,
+      "slippage_usd": 124.8455,
+      "cash_after_usd": 990.6975000002712
+    },
+    {
+      "date": "2023-10-03",
+      "action": "sell",
+      "units": 130,
+      "fill_price_usd": 1821.5387750000002,
+      "commission_usd": 0.0,
+      "slippage_usd": 118.45925,
+      "cash_after_usd": 237790.7382500003
+    },
+    {
+      "date": "2023-11-30",
+      "action": "buy",
+      "units": 116,
+      "fill_price_usd": 2036.467725,
+      "commission_usd": 0.0,
+      "slippage_usd": 118.05610000000001,
+      "cash_after_usd": 1560.4821500002872
+    },
+    {
+      "date": "2026-07-01",
+      "action": "sell",
+      "units": 116,
+      "fill_price_usd": 4087.405275,
+      "commission_usd": 0.0,
+      "slippage_usd": 237.1881,
+      "cash_after_usd": 475699.49405000027
+    }
+  ],
+  "system": "gold_XAUUSD"
+}

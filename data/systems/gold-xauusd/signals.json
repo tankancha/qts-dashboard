@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "signals",
+  "generated_at": "2026-07-11T11:01:23+00:00",
+  "as_of": "2026-07-11",
+  "signal_date": "2026-07-10",
+  "valid_until": "2026-07-13",
+  "strategy": {
+    "id": "trend_ma_crossover_gold",
+    "family": "trend"
+  },
+  "capital_usd": 100000.0,
+  "sizing": {
+    "policy": "fixed_fractional",
+    "rounding": "floor_to_unit"
+  },
+  "cost_model": {
+    "version": 2,
+    "leg": "gold"
+  },
+  "instructions": [
+    {
+      "instrument": "gold/XAUUSD",
+      "strategy_id": "trend_ma_crossover_gold",
+      "action": "none",
+      "direction": "flat",
+      "entry": null,
+      "exit": null,
+      "stop": null,
+      "size_units": 0,
+      "notional_usd": 0.0,
+      "risk_thb": 0.0,
+      "usdthb_rate": 33.2400016784668,
+      "regime": null,
+      "valid_until": "2026-07-13"
+    }
+  ],
+  "system": "gold_XAUUSD",
+  "contract_mapping": {
+    "tfex_go": {
+      "exchange": "Thailand Futures Exchange (TFEX)",
+      "product": "Gold Online Futures",
+      "symbol": "GO",
+      "underlying": "Gold with purity 99.5%, quoted in USD per troy ounce",
+      "multiplier": 300,
+      "tick_size": 0.1,
+      "tick_value_thb": 30,
+      "currency": "THB",
+      "settlement": "cash-settled in THB; final settlement = LBMA Gold AM Fixing on the last trading day, no FX-rate adjustment",
+      "source": "https://www.tfex.co.th/en/products/precious-metal/gold-online-futures/contract-specification"
+    },
+    "comex_gc": {
+      "exchange": "COMEX (CME Group)",
+      "product": "Gold Futures",
+      "symbol": "GC",
+      "underlying": "Gold assaying to a minimum of 995 fineness, quoted in U.S. dollars and cents per troy ounce",
+      "contract_size_oz": 100,
+      "tick_size": 0.1,
+      "tick_value_usd": 10.0,
+      "currency": "USD",
+      "settlement": "deliverable; physical delivery per COMEX Rulebook Chapter 113",
+      "source": "https://www.cmegroup.com/markets/metals/precious/gold.contractSpecs.html"
+    }
+  },
+  "basis_note": "Signals are computed on the spot research series (e.g. XAUUSD), not on an executable contract. Executing via the mapped futures (see contract_mapping) carries research-series-vs-executed-contract basis risk: the futures price = spot + basis (carry, funding, roll), and contract multipliers, ticks, sessions and settlement currency differ from the research series. size_units and notional_usd are research-series units (troy ounces for gold), not contract counts."
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "dashboard_manifest",
-  "generated_at": "2026-07-11T10:24:25+00:00",
+  "generated_at": "2026-07-11T11:11:27+00:00",
   "note": "published outputs only: strategy parameters, cost-model calibration and sizing parameters are redacted at the private/public boundary (ADR-0001)",
   "execution_note": "signals only - a human executes manually; nothing here places orders",
   "systems": [
@@ -20,6 +20,41 @@
         "ledger": "systems/us-spy/ledger.json",
         "portfolio": "systems/us-spy/portfolio.json"
       }
+    },
+    {
+      "id": "gold-xauusd",
+      "instrument": "gold/XAUUSD",
+      "leg": "gold",
+      "symbol": "XAUUSD",
+      "strategy_id": "trend_ma_crossover_gold",
+      "family": "trend",
+      "label": "XAUUSD \u00b7 trend",
+      "native_currency": "USD",
+      "reporting_currency": "THB",
+      "paths": {
+        "signals": "systems/gold-xauusd/signals.json",
+        "ledger": "systems/gold-xauusd/ledger.json",
+        "portfolio": "systems/gold-xauusd/portfolio.json"
+      }
     }
-  ]
+  ],
+  "total": {
+    "native_currency": "USD",
+    "reporting_currency": "THB",
+    "fx_note": "sum of per-system native-USD equities, converted at the day's USDTHB close for reporting only",
+    "ladder_basis": "native-currency (USD) total equity vs running peak",
+    "init_cash_usd": 200000.0,
+    "summary": {
+      "start_date": "2005-01-03",
+      "end_date": "2026-07-10",
+      "final_equity_usd": 956714.1186523566,
+      "final_equity_thb": 31801178.909817215,
+      "total_return": 3.783570593261783,
+      "max_drawdown": -0.20727203834415275,
+      "current_drawdown": -0.10650545841944703,
+      "risk_state": "halve_sizing",
+      "n_systems": 2,
+      "n_fills": 49
+    }
+  }
 }

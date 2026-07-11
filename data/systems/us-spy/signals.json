@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "kind": "signals",
-  "generated_at": "2026-07-11T10:24:18+00:00",
-  "as_of": "2024-12-30",
-  "signal_date": "2024-12-30",
-  "valid_until": "2024-12-31",
+  "generated_at": "2026-07-11T11:01:19+00:00",
+  "as_of": "2026-07-11",
+  "signal_date": "2026-07-10",
+  "valid_until": "2026-07-13",
   "strategy": {
     "id": "trend_ma_crossover",
     "family": "trend"
@@ -15,7 +15,7 @@
     "rounding": "floor_to_unit"
   },
   "cost_model": {
-    "version": 1,
+    "version": 2,
     "leg": "us"
   },
   "instructions": [
@@ -30,9 +30,10 @@
       "size_units": 0,
       "notional_usd": 0.0,
       "risk_thb": 0.0,
-      "usdthb_rate": 33.9900016784668,
+      "usdthb_rate": 33.2400016784668,
       "regime": null,
-      "valid_until": "2024-12-31"
+      "valid_until": "2026-07-13"
     }
-  ]
+  ],
+  "system": "us_SPY"
 }
