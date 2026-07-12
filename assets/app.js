@@ -36,7 +36,7 @@
   var REGIME_FALLBACK = '#B9C4D4';
 
   // ─── State ───────────────────────────────────────────────
-  var state = { manifest: null, systems: [], regime: null, view: 'signals' };
+  var state = { manifest: null, systems: [], regime: null, analysis: null, view: 'signals' };
 
   // ─── DOM refs ────────────────────────────────────────────
   var $panel = document.getElementById('panel');
@@ -102,6 +102,10 @@
     var regimeReq = manifest.regime
       ? fetchJSON('./data/' + manifest.regime.path).catch(function () { return null; })
       : Promise.resolve(null);
+    // Narrative artifact (issue #18) is optional: it only exists once the
+    // cloud routines have run, and the manifest never references it — so
+    // fetch it blind and swallow the 404. Absent → quiet placeholders.
+    var analysisReq = fetchJSON('./data/analysis.json').catch(function () { return null; });
     var systemsReq = Promise.all((manifest.systems || []).map(function (sys) {
       return Promise.all([
         fetchJSON('./data/' + sys.paths.signals),
@@ -111,10 +115,11 @@
         return { meta: sys, signals: r[0], ledger: r[1], portfolio: r[2] };
       });
     }));
-    return Promise.all([systemsReq, regimeReq]);
+    return Promise.all([systemsReq, regimeReq, analysisReq]);
   }).then(function (loaded) {
     var systems = loaded[0];
     state.regime = loaded[1];
+    state.analysis = loaded[2];
     state.systems = systems;
     $footUpdated.textContent = 'generated ' + (state.manifest.generated_at || '—');
     renderStats();
@@ -174,8 +179,130 @@
       return;
     }
     if (view === 'signals') renderSignals();
+    else if (view === 'brief') renderBrief();
+    else if (view === 'weekly') renderWeekly();
     else if (view === 'equity') renderEquity();
     else renderLedger();
+  }
+
+  // ── Narrative layer (issue #18) ───────────────────────────
+  // analysis.json is prose written by the cloud routines about the same
+  // committed serving JSON this page already renders (ADR-0008: the LLM
+  // narrates, it never computes a number). Absent or partial → quiet
+  // placeholder; the dashboard must not break before the first run.
+  function prose(text) {
+    return String(text == null ? '' : text).trim().split(/\n\s*\n/).map(function (p) {
+      return '<p>' + esc(p).replace(/\n/g, '<br>') + '</p>';
+    }).join('');
+  }
+  function narrativePlaceholder(title, what) {
+    return el('<div class="empty-state"><h3>' + title + '</h3><p>' + what +
+      ' It appears here automatically after the routine’s first run.</p></div>');
+  }
+  // Newest as_of across the systems' signals — the day the live bundle
+  // describes. A brief older than this is shown but flagged as stale.
+  function latestAsOf() {
+    var latest = '';
+    state.systems.forEach(function (s) {
+      if (s.signals.as_of && s.signals.as_of > latest) latest = s.signals.as_of;
+    });
+    return latest;
+  }
+  // graceDays: how far the narrative may trail the live bundle before it
+  // is flagged (0 for the daily brief; 7 for the weekly report, which is
+  // naturally up to a week behind the daily signals).
+  function staleNote(narrativeDate, label, graceDays) {
+    var live = latestAsOf();
+    if (!narrativeDate || !live) return '';
+    var lagMs = new Date(live) - new Date(narrativeDate);
+    if (isNaN(lagMs) || lagMs <= (graceDays || 0) * 86400000) return '';
+    return '<div class="stale-note">' + label + ' is dated ' + esc(narrativeDate) +
+      ', older than the latest signals (' + esc(live) + ') — the narrative routine has not caught up yet.</div>';
+  }
+
+  function renderBrief() {
+    $panel.appendChild(el(
+      '<div class="view-head"><div class="view-title">Morning brief</div>' +
+      '<div class="view-sub">narrative layer — prose about the committed JSON, written after each signals run</div></div>'));
+    var daily = state.analysis && state.analysis.daily;
+    if (!daily) {
+      $panel.appendChild(narrativePlaceholder('No morning brief yet',
+        'The daily narrative routine writes a brief after each scheduled signals run (Tue–Sat mornings).'));
+      return;
+    }
+    var labelBySid = {};
+    state.systems.forEach(function (s) { labelBySid[s.meta.id] = s.meta; });
+
+    var head = staleNote(daily.date, 'This brief', 0) +
+      (daily.staleness ? '<div class="stale-note">' + esc(daily.staleness) + '</div>' : '');
+    $panel.appendChild(el('<div class="card">' +
+      '<div class="card-head"><div><div class="card-eyebrow">Daily narrative</div>' +
+      '<div class="card-title">Morning brief · ' + esc(daily.date) + '</div></div>' +
+      '<div class="card-sub num">written ' + esc(daily.generated_at) + '</div></div>' +
+      head +
+      '<div class="prose">' + prose(daily.brief) + '</div>' +
+      '<div class="footnote">Narrative only — every number is quoted from the serving JSON, never recomputed. ' +
+      'Signals are instructions for manual execution; nothing here places orders.</div>' +
+      '</div>'));
+
+    var rationale = Object.keys(daily.per_system || {}).map(function (sid) {
+      var meta = labelBySid[sid];
+      var title = meta ? meta.label : sid;
+      var sub = meta ? meta.instrument + ' · ' + meta.family : '';
+      return '<div class="rationale"><div class="rationale-head"><span class="rationale-title">' + esc(title) +
+        '</span><span class="rationale-sub num">' + esc(sub) + '</span></div>' +
+        '<div class="prose">' + prose(daily.per_system[sid]) + '</div></div>';
+    }).join('');
+    if (rationale) {
+      $panel.appendChild(el('<div class="card">' +
+        '<div class="card-head"><div><div class="card-eyebrow">Per system</div>' +
+        '<div class="card-title">Signal rationale</div></div></div>' + rationale + '</div>'));
+    }
+
+    if (daily.regime_commentary) {
+      $panel.appendChild(el('<div class="card">' +
+        '<div class="card-head"><div><div class="card-eyebrow">Market regime</div>' +
+        '<div class="card-title">Regime commentary</div></div></div>' +
+        '<div class="prose">' + prose(daily.regime_commentary) + '</div>' +
+        '<div class="footnote">Regime state is context — the strategies, not the quadrants, generate the signals.</div>' +
+        '</div>'));
+    }
+  }
+
+  function renderWeekly() {
+    $panel.appendChild(el(
+      '<div class="view-head"><div class="view-title">Weekly regime report</div>' +
+      '<div class="view-sub">Saturday research narrative — the week’s regime moves and what they imply</div></div>'));
+    var weekly = state.analysis && state.analysis.weekly;
+    if (!weekly) {
+      $panel.appendChild(narrativePlaceholder('No weekly report yet',
+        'The weekly regime routine writes a research report on Saturday mornings.'));
+      return;
+    }
+    $panel.appendChild(el('<div class="card">' +
+      '<div class="card-head"><div><div class="card-eyebrow">Weekly report</div>' +
+      '<div class="card-title">Week ending ' + esc(weekly.week_ending) + '</div></div>' +
+      '<div class="card-sub num">written ' + esc(weekly.generated_at) + '</div></div>' +
+      staleNote(weekly.week_ending, 'This report', 7) +
+      '<div class="prose">' + prose(weekly.report) + '</div>' +
+      '<div class="footnote">Narrative only — every number is quoted from the serving JSON, never recomputed. ' +
+      'Paper signals for manual execution; nothing here places orders.</div>' +
+      '</div>'));
+    if (weekly.regime_moves) {
+      $panel.appendChild(el('<div class="card">' +
+        '<div class="card-head"><div><div class="card-eyebrow">Market regime</div>' +
+        '<div class="card-title">Regime moves this week</div></div></div>' +
+        '<div class="prose">' + prose(weekly.regime_moves) + '</div></div>'));
+    }
+    if (weekly.families_outlook) {
+      $panel.appendChild(el('<div class="card">' +
+        '<div class="card-head"><div><div class="card-eyebrow">Strategy families</div>' +
+        '<div class="card-title">Families outlook</div></div></div>' +
+        '<div class="prose">' + prose(weekly.families_outlook) + '</div>' +
+        '<div class="footnote">Environmental context only — never a trade recommendation; family gating decisions ' +
+        'belong to the human research process.</div>' +
+        '</div>'));
+    }
   }
 
   // ── Regime strip (issue #14) ──────────────────────────────
