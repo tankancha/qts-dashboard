@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "ledger",
-  "generated_at": "2026-07-12T03:50:23+00:00",
+  "generated_at": "2026-07-12T06:22:40+00:00",
   "strategy": {
     "id": "trend_ma_crossover_s50",
     "family": "trend",

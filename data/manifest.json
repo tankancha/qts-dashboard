@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "dashboard_manifest",
-  "generated_at": "2026-07-12T03:50:29+00:00",
+  "generated_at": "2026-07-12T06:22:41+00:00",
   "note": "published outputs only: strategy parameters, cost-model calibration and sizing parameters are redacted at the private/public boundary (ADR-0001)",
   "execution_note": "signals only - a human executes manually; nothing here places orders",
   "systems": [
