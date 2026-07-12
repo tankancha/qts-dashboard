@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "kind": "signals",
-  "generated_at": "2026-07-11T11:01:19+00:00",
-  "as_of": "2026-07-11",
+  "generated_at": "2026-07-12T03:50:04+00:00",
+  "as_of": "2026-07-12",
   "signal_date": "2026-07-10",
   "valid_until": "2026-07-13",
   "strategy": {
@@ -15,7 +15,7 @@
     "rounding": "floor_to_unit"
   },
   "cost_model": {
-    "version": 2,
+    "version": 3,
     "leg": "us"
   },
   "instructions": [
@@ -31,7 +31,13 @@
       "notional_usd": 0.0,
       "risk_thb": 0.0,
       "usdthb_rate": 33.2400016784668,
-      "regime": null,
+      "regime": {
+        "model_id": "quadrant_vol63_trend200",
+        "model_version": 1,
+        "quadrant": "calm_uptrend",
+        "trend": "up",
+        "vol_pctile": 0.49523809523809526
+      },
       "valid_until": "2026-07-13"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "portfolio",
-  "generated_at": "2026-07-11T11:01:26+00:00",
+  "generated_at": "2026-07-12T03:50:21+00:00",
   "strategy": {
     "id": "trend_ma_crossover",
     "family": "trend",

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "kind": "ledger",
-  "generated_at": "2026-07-11T11:01:26+00:00",
+  "generated_at": "2026-07-12T03:50:21+00:00",
   "strategy": {
     "id": "trend_ma_crossover",
     "family": "trend",
     "instrument": "us/SPY"
   },
   "cost_model": {
-    "version": 2,
+    "version": 3,
     "leg": "us"
   },
   "sizing": {

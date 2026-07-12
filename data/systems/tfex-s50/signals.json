@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "signals",
+  "generated_at": "2026-07-12T03:50:16+00:00",
+  "as_of": "2026-07-12",
+  "signal_date": "2026-07-10",
+  "valid_until": "2026-07-13",
+  "strategy": {
+    "id": "trend_ma_crossover_s50",
+    "family": "trend"
+  },
+  "capital_usd": 100000.0,
+  "sizing": {
+    "policy": "fixed_fractional",
+    "rounding": "floor_to_unit"
+  },
+  "cost_model": {
+    "version": 3,
+    "leg": "tfex"
+  },
+  "instructions": [
+    {
+      "instrument": "tfex/S50",
+      "strategy_id": "trend_ma_crossover_s50",
+      "action": "hold",
+      "direction": "long",
+      "entry": null,
+      "exit": null,
+      "stop": null,
+      "size_units": 0,
+      "notional_usd": 0.0,
+      "risk_thb": 0.0,
+      "usdthb_rate": 1.0,
+      "regime": {
+        "model_id": "quadrant_vol63_trend200",
+        "model_version": 1,
+        "quadrant": "calm_uptrend",
+        "trend": "up",
+        "vol_pctile": 0.06175771971496437
+      },
+      "valid_until": "2026-07-13",
+      "front_contract": "S50U26"
+    }
+  ],
+  "system": "tfex_S50",
+  "native_currency": "THB",
+  "contract_mapping": {
+    "tfex_s50": {
+      "exchange": "Thailand Futures Exchange (TFEX)",
+      "product": "SET50 Index Futures",
+      "symbol": "S50",
+      "underlying": "SET50 Index",
+      "multiplier": 200,
+      "tick_size": 0.1,
+      "tick_value_thb": 20,
+      "currency": "THB",
+      "contract_months": "3 nearest consecutive months plus the next 3 quarterly months; the continuous series rolls the quarterlies only (H/M/U/Z)",
+      "settlement": "cash-settled; last trading day = the business day immediately preceding the last business day of the contract month, trading ceases 16:30",
+      "source": "https://www.tfex.co.th/en/products/equity/set50-index-futures/contract-specification"
+    }
+  },
+  "basis_note": "Signals are computed on the Panama back-adjusted continuous series (ADR-0003), not on a listed contract. Execute via the current front quarterly named in front_contract; the roll table under reference/continuous/ audits the stitching. size_units are WHOLE CONTRACTS; prices are index points; one contract's cash value is points x the contract multiplier in the leg's native currency (S50: x 200 THB). The *_usd-named money fields carry native-currency values for a non-USD leg."
+}

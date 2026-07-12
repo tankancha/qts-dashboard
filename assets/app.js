@@ -24,9 +24,19 @@
   var LADDER_COLORS = ['#F5A623', '#EF7D3C', '#E0264A']; // mild → severe
   var FONT_SANS = "'Geist','SF Pro Display',system-ui,sans-serif";
   var FONT_MONO = "'JetBrains Mono',Consolas,monospace";
+  // Regime quadrant palette (issue #14). Any label the JSON carries that
+  // is not listed here falls back to a neutral swatch — the page stays
+  // data-driven when a future regime model ships new state names.
+  var REGIME_COLORS = {
+    calm_uptrend: C.up,
+    volatile_uptrend: C.warn,
+    calm_downtrend: '#7A8CA8',
+    volatile_downtrend: C.down
+  };
+  var REGIME_FALLBACK = '#B9C4D4';
 
   // ─── State ───────────────────────────────────────────────
-  var state = { manifest: null, systems: [], view: 'signals' };
+  var state = { manifest: null, systems: [], regime: null, view: 'signals' };
 
   // ─── DOM refs ────────────────────────────────────────────
   var $panel = document.getElementById('panel');
@@ -87,7 +97,12 @@
   // ─── Boot ────────────────────────────────────────────────
   fetchJSON('./data/manifest.json').then(function (manifest) {
     state.manifest = manifest;
-    return Promise.all((manifest.systems || []).map(function (sys) {
+    // Regime artifact (issue #14) is optional: an older bundle without it
+    // must render exactly as before.
+    var regimeReq = manifest.regime
+      ? fetchJSON('./data/' + manifest.regime.path).catch(function () { return null; })
+      : Promise.resolve(null);
+    var systemsReq = Promise.all((manifest.systems || []).map(function (sys) {
       return Promise.all([
         fetchJSON('./data/' + sys.paths.signals),
         fetchJSON('./data/' + sys.paths.ledger),
@@ -96,7 +111,10 @@
         return { meta: sys, signals: r[0], ledger: r[1], portfolio: r[2] };
       });
     }));
-  }).then(function (systems) {
+    return Promise.all([systemsReq, regimeReq]);
+  }).then(function (loaded) {
+    var systems = loaded[0];
+    state.regime = loaded[1];
     state.systems = systems;
     $footUpdated.textContent = 'generated ' + (state.manifest.generated_at || '—');
     renderStats();
@@ -160,11 +178,71 @@
     else renderLedger();
   }
 
+  // ── Regime strip (issue #14) ──────────────────────────────
+  function regimeColor(quadrant) {
+    return REGIME_COLORS[quadrant] || REGIME_FALLBACK;
+  }
+  function regimeChip(current) {
+    if (!current) {
+      return '<span class="regime-chip"><span class="dot" style="background:' + REGIME_FALLBACK +
+        '"></span>unclassified</span>';
+    }
+    return '<span class="regime-chip"><span class="dot" style="background:' + regimeColor(current.quadrant) +
+      '"></span>' + esc(String(current.quadrant).replace(/_/g, ' ')) + '</span>';
+  }
+  // Run-length encode the [date, quadrant] history into strip segments.
+  function regimeSegments(history) {
+    var runs = [];
+    history.forEach(function (entry) {
+      var last = runs[runs.length - 1];
+      if (last && last.quadrant === entry[1]) { last.n += 1; last.to = entry[0]; }
+      else runs.push({ quadrant: entry[1], from: entry[0], to: entry[0], n: 1 });
+    });
+    return runs.map(function (r) {
+      var label = String(r.quadrant).replace(/_/g, ' ') + ' · ' + r.from + ' → ' + r.to +
+        ' (' + r.n + ' session' + (r.n === 1 ? '' : 's') + ')';
+      return '<span class="seg" style="flex-grow:' + r.n + ';background:' + regimeColor(r.quadrant) +
+        '" title="' + esc(label) + '"></span>';
+    }).join('');
+  }
+  function renderRegimeCard() {
+    var regime = state.regime;
+    if (!regime || !(regime.legs || []).length) return;
+    var rows = regime.legs.map(function (leg) {
+      var strip = leg.history.length
+        ? '<div class="regime-strip">' + regimeSegments(leg.history) + '</div>' +
+          '<div class="regime-range num"><span>' + esc(leg.history[0][0]) + '</span><span>' +
+          esc(leg.history[leg.history.length - 1][0]) + '</span></div>'
+        : '<div class="regime-range">not enough history to classify yet (' + leg.n_bars + ' bars)</div>';
+      return '<div class="regime-row">' +
+        '<div class="regime-meta"><span class="regime-instrument">' + esc(leg.instrument) + '</span>' +
+        regimeChip(leg.current) + '</div>' + strip + '</div>';
+    }).join('');
+    var quadrants = (regime.model && regime.model.quadrants) || Object.keys(REGIME_COLORS);
+    var legend = quadrants.map(function (q) {
+      return '<span class="key"><span class="sw" style="background:' + regimeColor(q) + '"></span>' +
+        esc(String(q).replace(/_/g, ' ')) + '</span>';
+    }).join('');
+    var card = el('<div class="card">' +
+      '<div class="card-head"><div><div class="card-eyebrow">Market regime</div>' +
+      '<div class="card-title">Current quadrant per leg</div></div>' +
+      '<div class="card-sub num">model ' + esc(regime.model.id) + ' v' + esc(regime.model.version) + '</div></div>' +
+      rows +
+      '<div class="regime-legend">' + legend + '</div>' +
+      '<div class="footnote">Quadrant = 63-day realized-volatility percentile (vs its own history) × ' +
+      'trend state (close vs 200-day average). Context only — signals are generated by the strategies, ' +
+      'not by the regime.</div>' +
+      '</div>');
+    $panel.appendChild(card);
+  }
+
   // ── Signals today ─────────────────────────────────────────
   function renderSignals() {
     $panel.appendChild(el(
       '<div class="view-head"><div class="view-title">Signals today</div>' +
       '<div class="view-sub">next-session instructions per system · paper only</div></div>'));
+
+    renderRegimeCard();
 
     state.systems.forEach(function (s) {
       var sig = s.signals, sum = s.portfolio.summary;
@@ -189,10 +267,13 @@
 
       var sev = severity(sum.risk_state, s.portfolio.drawdown_ladder);
       var riskCls = sev < 0 ? '' : (sev === 0 ? ' flag' : ' alert');
+      // Regime tag the signal was generated in (issue #14; absent on older payloads)
+      var sigRegime = (sig.instructions && sig.instructions[0] && sig.instructions[0].regime) || null;
+      var regimeSub = sigRegime ? ' · generated in ' + regimeChip(sigRegime) : '';
       var card = el('<div class="card">' +
         '<div class="card-head"><div><div class="card-eyebrow">' + esc(s.meta.label) + '</div>' +
         '<div class="card-title">' + esc(s.meta.instrument) + ' · ' + esc(s.meta.family) + '</div></div>' +
-        '<div class="card-sub num">signal ' + esc(sig.signal_date) + ' · valid until ' + esc(sig.valid_until) + '</div></div>' +
+        '<div class="card-sub num">signal ' + esc(sig.signal_date) + ' · valid until ' + esc(sig.valid_until) + regimeSub + '</div></div>' +
         '<div class="tile-grid">' +
         tile('Equity (' + esc(s.meta.native_currency) + ')', money(sum.final_equity_usd, s.meta.native_currency), '') +
         tile('Equity (THB)', num(sum.final_equity_thb, 0), '') +

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "dashboard_manifest",
-  "generated_at": "2026-07-11T11:11:27+00:00",
+  "generated_at": "2026-07-12T03:50:29+00:00",
   "note": "published outputs only: strategy parameters, cost-model calibration and sizing parameters are redacted at the private/public boundary (ADR-0001)",
   "execution_note": "signals only - a human executes manually; nothing here places orders",
   "systems": [
@@ -36,25 +36,47 @@
         "ledger": "systems/gold-xauusd/ledger.json",
         "portfolio": "systems/gold-xauusd/portfolio.json"
       }
+    },
+    {
+      "id": "tfex-s50",
+      "instrument": "tfex/S50",
+      "leg": "tfex",
+      "symbol": "S50",
+      "strategy_id": "trend_ma_crossover_s50",
+      "family": "trend",
+      "label": "S50 \u00b7 trend",
+      "native_currency": "THB",
+      "reporting_currency": "THB",
+      "paths": {
+        "signals": "systems/tfex-s50/signals.json",
+        "ledger": "systems/tfex-s50/ledger.json",
+        "portfolio": "systems/tfex-s50/portfolio.json"
+      }
     }
   ],
   "total": {
-    "native_currency": "USD",
+    "native_currency": "mixed",
     "reporting_currency": "THB",
-    "fx_note": "sum of per-system native-USD equities, converted at the day's USDTHB close for reporting only",
-    "ladder_basis": "native-currency (USD) total equity vs running peak",
-    "init_cash_usd": 200000.0,
+    "fx_note": "mixed-currency portfolio (USD-native + THB-native systems): the total is the sum of per-system THB-reported equities (USD systems converted at the day's USDTHB close, THB systems at par); equity_usd is that THB total divided by the day's rate",
+    "ladder_basis": "THB-reported total equity vs running peak (ADR-0006: the drawdown budget is felt in THB)",
+    "init_cash_usd": 202570.3637871135,
+    "init_cash_thb": 7880999.755859375,
     "summary": {
       "start_date": "2005-01-03",
       "end_date": "2026-07-10",
-      "final_equity_usd": 956714.1186523566,
-      "final_equity_thb": 31801178.909817215,
-      "total_return": 3.783570593261783,
-      "max_drawdown": -0.20727203834415275,
-      "current_drawdown": -0.10650545841944703,
-      "risk_state": "halve_sizing",
-      "n_systems": 2,
+      "final_equity_usd": 959722.5420864859,
+      "final_equity_thb": 31901178.90981721,
+      "total_return": 3.0478593957700966,
+      "max_drawdown": -0.25716608083121706,
+      "current_drawdown": -0.04519510316359454,
+      "risk_state": "normal",
+      "n_systems": 3,
       "n_fills": 49
     }
+  },
+  "regime": {
+    "path": "regime.json",
+    "model_id": "quadrant_vol63_trend200",
+    "model_version": 1
   }
 }

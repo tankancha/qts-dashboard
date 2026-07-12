@@ -1,0 +1,7293 @@
+{
+  "schema_version": 1,
+  "kind": "portfolio",
+  "generated_at": "2026-07-12T03:50:23+00:00",
+  "strategy": {
+    "id": "trend_ma_crossover_s50",
+    "family": "trend",
+    "instrument": "tfex/S50"
+  },
+  "native_currency": "THB",
+  "reporting_currency": "THB",
+  "fx_note": "THB-native system: equity accrues in THB, so equity_thb is the native equity passed through at rate 1.0 (the usdthb field is 1.0); the *_usd-named fields carry native THB values - native_currency is the authoritative label",
+  "drawdown_ladder": {
+    "halve_sizing": 0.1,
+    "kill_switch_review": 0.12,
+    "flat": 0.15
+  },
+  "ladder_basis": "native-currency (THB) equity vs running peak",
+  "days": [
+    {
+      "date": "2024-07-11",
+      "position_units": 0,
+      "close_usd": 785.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-12",
+      "position_units": 0,
+      "close_usd": 789.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-15",
+      "position_units": 0,
+      "close_usd": 788.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "position_units": 0,
+      "close_usd": 783.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-17",
+      "position_units": 0,
+      "close_usd": 787.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-18",
+      "position_units": 0,
+      "close_usd": 791.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-19",
+      "position_units": 0,
+      "close_usd": 785.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-23",
+      "position_units": 0,
+      "close_usd": 780.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-24",
+      "position_units": 0,
+      "close_usd": 776.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-25",
+      "position_units": 0,
+      "close_usd": 772.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-26",
+      "position_units": 0,
+      "close_usd": 783.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-30",
+      "position_units": 0,
+      "close_usd": 784.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-07-31",
+      "position_units": 0,
+      "close_usd": 794.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-01",
+      "position_units": 0,
+      "close_usd": 793.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-02",
+      "position_units": 0,
+      "close_usd": 783.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-05",
+      "position_units": 0,
+      "close_usd": 765.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-06",
+      "position_units": 0,
+      "close_usd": 763.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-07",
+      "position_units": 0,
+      "close_usd": 778.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-08",
+      "position_units": 0,
+      "close_usd": 775.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-09",
+      "position_units": 0,
+      "close_usd": 780.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-13",
+      "position_units": 0,
+      "close_usd": 779.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-14",
+      "position_units": 0,
+      "close_usd": 778.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-15",
+      "position_units": 0,
+      "close_usd": 778.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-16",
+      "position_units": 0,
+      "close_usd": 785.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-19",
+      "position_units": 0,
+      "close_usd": 799.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-20",
+      "position_units": 0,
+      "close_usd": 801.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-21",
+      "position_units": 0,
+      "close_usd": 807.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-22",
+      "position_units": 0,
+      "close_usd": 807.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-23",
+      "position_units": 0,
+      "close_usd": 817.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "position_units": 0,
+      "close_usd": 824.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-27",
+      "position_units": 0,
+      "close_usd": 823.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-28",
+      "position_units": 0,
+      "close_usd": 828.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-29",
+      "position_units": 0,
+      "close_usd": 822.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-08-30",
+      "position_units": 0,
+      "close_usd": 820.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-02",
+      "position_units": 0,
+      "close_usd": 816.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-03",
+      "position_units": 0,
+      "close_usd": 823.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-04",
+      "position_units": 0,
+      "close_usd": 821.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-05",
+      "position_units": 0,
+      "close_usd": 857.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-06",
+      "position_units": 0,
+      "close_usd": 873.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-09",
+      "position_units": 0,
+      "close_usd": 866.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-10",
+      "position_units": 0,
+      "close_usd": 866.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-11",
+      "position_units": 0,
+      "close_usd": 859.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-12",
+      "position_units": 0,
+      "close_usd": 864.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-13",
+      "position_units": 0,
+      "close_usd": 867.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-16",
+      "position_units": 0,
+      "close_usd": 870.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-17",
+      "position_units": 0,
+      "close_usd": 871.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-18",
+      "position_units": 0,
+      "close_usd": 870.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-19",
+      "position_units": 0,
+      "close_usd": 883.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-20",
+      "position_units": 0,
+      "close_usd": 877.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-23",
+      "position_units": 0,
+      "close_usd": 877.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-24",
+      "position_units": 0,
+      "close_usd": 892.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-25",
+      "position_units": 0,
+      "close_usd": 889.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-26",
+      "position_units": 0,
+      "close_usd": 888.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-27",
+      "position_units": 0,
+      "close_usd": 880.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-09-30",
+      "position_units": 0,
+      "close_usd": 878.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "position_units": 0,
+      "close_usd": 888.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-02",
+      "position_units": 0,
+      "close_usd": 878.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "position_units": 0,
+      "close_usd": 875.3,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-04",
+      "position_units": 0,
+      "close_usd": 877.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-07",
+      "position_units": 0,
+      "close_usd": 883.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "position_units": 0,
+      "close_usd": 883.6999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "position_units": 0,
+      "close_usd": 886.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-10",
+      "position_units": 0,
+      "close_usd": 896.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-11",
+      "position_units": 0,
+      "close_usd": 898.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "position_units": 0,
+      "close_usd": 898.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-16",
+      "position_units": 0,
+      "close_usd": 913.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "position_units": 0,
+      "close_usd": 920.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-18",
+      "position_units": 0,
+      "close_usd": 920.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "position_units": 0,
+      "close_usd": 915.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "position_units": 0,
+      "close_usd": 903.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "position_units": 0,
+      "close_usd": 899.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "position_units": 0,
+      "close_usd": 903.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "position_units": 0,
+      "close_usd": 893.6999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "position_units": 0,
+      "close_usd": 893.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "position_units": 0,
+      "close_usd": 887.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "position_units": 0,
+      "close_usd": 901.0999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "position_units": 0,
+      "close_usd": 900.0999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "position_units": 0,
+      "close_usd": 902.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "position_units": 0,
+      "close_usd": 916.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "position_units": 0,
+      "close_usd": 908.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "position_units": 0,
+      "close_usd": 913.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "position_units": 0,
+      "close_usd": 905.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "position_units": 0,
+      "close_usd": 901.6999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "position_units": 0,
+      "close_usd": 895.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "position_units": 0,
+      "close_usd": 900.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "position_units": 0,
+      "close_usd": 899.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "position_units": 0,
+      "close_usd": 896.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "position_units": 0,
+      "close_usd": 904.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "position_units": 0,
+      "close_usd": 909.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "position_units": 0,
+      "close_usd": 910.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "position_units": 0,
+      "close_usd": 893.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "position_units": 0,
+      "close_usd": 897.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "position_units": 0,
+      "close_usd": 898.0999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "position_units": 0,
+      "close_usd": 894.8,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "position_units": 0,
+      "close_usd": 888.0999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-28",
+      "position_units": 0,
+      "close_usd": 888.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "position_units": 0,
+      "close_usd": 884.0999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "position_units": 0,
+      "close_usd": 893.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "position_units": 0,
+      "close_usd": 903.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "position_units": 0,
+      "close_usd": 900.6999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "position_units": 0,
+      "close_usd": 902.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "position_units": 0,
+      "close_usd": 898.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "position_units": 0,
+      "close_usd": 897.3,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "position_units": 0,
+      "close_usd": 894.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "position_units": 0,
+      "close_usd": 887.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "position_units": 0,
+      "close_usd": 885.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "position_units": 0,
+      "close_usd": 866.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "position_units": 0,
+      "close_usd": 869.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "position_units": 0,
+      "close_usd": 855.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "position_units": 0,
+      "close_usd": 847.1999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "position_units": 0,
+      "close_usd": 864.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "position_units": 0,
+      "close_usd": 868.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-25",
+      "position_units": 0,
+      "close_usd": 872.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "position_units": 0,
+      "close_usd": 870.5999999999999,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "position_units": 0,
+      "close_usd": 869.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "position_units": 0,
+      "close_usd": 867.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "position_units": 0,
+      "close_usd": 851.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "position_units": 0,
+      "close_usd": 857.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "position_units": 0,
+      "close_usd": 850.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "position_units": 0,
+      "close_usd": 865.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "position_units": 0,
+      "close_usd": 860.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "position_units": 0,
+      "close_usd": 845.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "position_units": 0,
+      "close_usd": 852.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "position_units": 0,
+      "close_usd": 842.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "position_units": 0,
+      "close_usd": 833.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "position_units": 0,
+      "close_usd": 844.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "position_units": 0,
+      "close_usd": 843.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "position_units": 0,
+      "close_usd": 836.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-20",
+      "position_units": 0,
+      "close_usd": 837.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "position_units": 0,
+      "close_usd": 845.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "position_units": 0,
+      "close_usd": 850.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "position_units": 0,
+      "close_usd": 837.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "position_units": 0,
+      "close_usd": 845.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "position_units": 0,
+      "close_usd": 835.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "position_units": 0,
+      "close_usd": 838.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "position_units": 0,
+      "close_usd": 835.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "position_units": 0,
+      "close_usd": 831.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "position_units": 0,
+      "close_usd": 818.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "position_units": 0,
+      "close_usd": 807.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "position_units": 0,
+      "close_usd": 808.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "position_units": 0,
+      "close_usd": 796.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "position_units": 0,
+      "close_usd": 781.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "position_units": 0,
+      "close_usd": 795.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "position_units": 0,
+      "close_usd": 787.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "position_units": 0,
+      "close_usd": 794.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "position_units": 0,
+      "close_usd": 794.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "position_units": 0,
+      "close_usd": 788.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-17",
+      "position_units": 0,
+      "close_usd": 769.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "position_units": 0,
+      "close_usd": 767.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "position_units": 0,
+      "close_usd": 768.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "position_units": 0,
+      "close_usd": 752.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "position_units": 0,
+      "close_usd": 755.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "position_units": 0,
+      "close_usd": 748.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "position_units": 0,
+      "close_usd": 726.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "position_units": 0,
+      "close_usd": 744.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "position_units": 0,
+      "close_usd": 735.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-02-28",
+      "position_units": 0,
+      "close_usd": 724.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "position_units": 0,
+      "close_usd": 718.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "position_units": 0,
+      "close_usd": 706.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "position_units": 0,
+      "close_usd": 727.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "position_units": 0,
+      "close_usd": 713.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "position_units": 0,
+      "close_usd": 726.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "position_units": 0,
+      "close_usd": 707.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "position_units": 0,
+      "close_usd": 713.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "position_units": 0,
+      "close_usd": 695.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "position_units": 0,
+      "close_usd": 696.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "position_units": 0,
+      "close_usd": 704.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "position_units": 0,
+      "close_usd": 704.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "position_units": 0,
+      "close_usd": 709.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "position_units": 0,
+      "close_usd": 715.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "position_units": 0,
+      "close_usd": 709.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "position_units": 0,
+      "close_usd": 718.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "position_units": 0,
+      "close_usd": 720.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "position_units": 0,
+      "close_usd": 719.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "position_units": 0,
+      "close_usd": 722.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "position_units": 0,
+      "close_usd": 721.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "position_units": 0,
+      "close_usd": 713.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "position_units": 0,
+      "close_usd": 702.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "position_units": 0,
+      "close_usd": 714.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "position_units": 0,
+      "close_usd": 716.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "position_units": 0,
+      "close_usd": 704.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "position_units": 0,
+      "close_usd": 678.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "position_units": 0,
+      "close_usd": 641.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "position_units": 0,
+      "close_usd": 653.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "position_units": 0,
+      "close_usd": 696.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "position_units": 0,
+      "close_usd": 689.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "position_units": 0,
+      "close_usd": 697.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "position_units": 0,
+      "close_usd": 695.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-18",
+      "position_units": 0,
+      "close_usd": 704.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "position_units": 0,
+      "close_usd": 691.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "position_units": 0,
+      "close_usd": 698.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "position_units": 0,
+      "close_usd": 706.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "position_units": 0,
+      "close_usd": 702.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "position_units": 0,
+      "close_usd": 711.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "position_units": 0,
+      "close_usd": 712.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "position_units": 0,
+      "close_usd": 722.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "position_units": 0,
+      "close_usd": 745.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "position_units": 0,
+      "close_usd": 744.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "position_units": 0,
+      "close_usd": 736.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "position_units": 0,
+      "close_usd": 762.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "position_units": 0,
+      "close_usd": 753.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "position_units": 0,
+      "close_usd": 758.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "position_units": 0,
+      "close_usd": 759.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "position_units": 0,
+      "close_usd": 765.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "position_units": 0,
+      "close_usd": 750.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "position_units": 0,
+      "close_usd": 749.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "position_units": 0,
+      "close_usd": 741.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "position_units": 0,
+      "close_usd": 746.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "position_units": 0,
+      "close_usd": 737.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "position_units": 0,
+      "close_usd": 738.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "position_units": 0,
+      "close_usd": 740.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-26",
+      "position_units": 0,
+      "close_usd": 741.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "position_units": 0,
+      "close_usd": 729.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "position_units": 0,
+      "close_usd": 725.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "position_units": 0,
+      "close_usd": 730.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "position_units": 0,
+      "close_usd": 711.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "position_units": 0,
+      "close_usd": 706.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "position_units": 0,
+      "close_usd": 709.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "position_units": 0,
+      "close_usd": 709.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "position_units": 0,
+      "close_usd": 708.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "position_units": 0,
+      "close_usd": 709.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "position_units": 0,
+      "close_usd": 715.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "position_units": 0,
+      "close_usd": 699.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "position_units": 0,
+      "close_usd": 701.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "position_units": 0,
+      "close_usd": 698.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "position_units": 0,
+      "close_usd": 695.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "position_units": 0,
+      "close_usd": 681.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-19",
+      "position_units": 0,
+      "close_usd": 664.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "position_units": 0,
+      "close_usd": 667.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "position_units": 0,
+      "close_usd": 662.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "position_units": 0,
+      "close_usd": 692.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "position_units": 0,
+      "close_usd": 695.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "position_units": 0,
+      "close_usd": 694.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "position_units": 0,
+      "close_usd": 673.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "position_units": 0,
+      "close_usd": 676.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "position_units": 0,
+      "close_usd": 692.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "position_units": 0,
+      "close_usd": 692.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "position_units": 0,
+      "close_usd": 698.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-04",
+      "position_units": 0,
+      "close_usd": 693.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "position_units": 0,
+      "close_usd": 697.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "position_units": 0,
+      "close_usd": 691.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "position_units": 0,
+      "close_usd": 690.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "position_units": 0,
+      "close_usd": 695.1000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "position_units": 0,
+      "close_usd": 710.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "position_units": 0,
+      "close_usd": 723.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "position_units": 0,
+      "close_usd": 722.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "position_units": 0,
+      "close_usd": 750.1000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "position_units": 0,
+      "close_usd": 761.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "position_units": 0,
+      "close_usd": 758.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "position_units": 0,
+      "close_usd": 747.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "position_units": 0,
+      "close_usd": 767.1000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "position_units": 0,
+      "close_usd": 762.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "position_units": 0,
+      "close_usd": 766.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "position_units": 0,
+      "close_usd": 778.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "position_units": 0,
+      "close_usd": 782.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "position_units": 0,
+      "close_usd": 781.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "position_units": 0,
+      "close_usd": 765.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "position_units": 0,
+      "close_usd": 772.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "position_units": 0,
+      "close_usd": 779.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "position_units": 0,
+      "close_usd": 790.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "position_units": 0,
+      "close_usd": 793.1000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "position_units": 0,
+      "close_usd": 785.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "position_units": 0,
+      "close_usd": 797.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "position_units": 0,
+      "close_usd": 789.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "position_units": 0,
+      "close_usd": 786.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "position_units": 0,
+      "close_usd": 775.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "position_units": 0,
+      "close_usd": 770.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "position_units": 0,
+      "close_usd": 782.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "position_units": 0,
+      "close_usd": 781.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "position_units": 0,
+      "close_usd": 788.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "position_units": 0,
+      "close_usd": 792.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "position_units": 0,
+      "close_usd": 783.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "position_units": 0,
+      "close_usd": 780.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "position_units": 0,
+      "close_usd": 780.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "position_units": 0,
+      "close_usd": 772.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "position_units": 0,
+      "close_usd": 780.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "position_units": 0,
+      "close_usd": 785.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "position_units": 0,
+      "close_usd": 789.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "position_units": 0,
+      "close_usd": 779.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "position_units": 0,
+      "close_usd": 790.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "position_units": 0,
+      "close_usd": 786.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "position_units": 0,
+      "close_usd": 793.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "position_units": 0,
+      "close_usd": 791.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "position_units": 0,
+      "close_usd": 803.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "position_units": 0,
+      "close_usd": 804.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "position_units": 0,
+      "close_usd": 807.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "position_units": 0,
+      "close_usd": 813.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "position_units": 0,
+      "close_usd": 813.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "position_units": 0,
+      "close_usd": 808.6000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "position_units": 0,
+      "close_usd": 805.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "position_units": 0,
+      "close_usd": 799.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "position_units": 0,
+      "close_usd": 794.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "position_units": 0,
+      "close_usd": 794.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "position_units": 0,
+      "close_usd": 805.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "position_units": 0,
+      "close_usd": 798.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "position_units": 0,
+      "close_usd": 810.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "position_units": 0,
+      "close_usd": 801.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "position_units": 0,
+      "close_usd": 804.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "position_units": 0,
+      "close_usd": 811.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-03",
+      "position_units": 0,
+      "close_usd": 816.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-06",
+      "position_units": 0,
+      "close_usd": 813.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-07",
+      "position_units": 0,
+      "close_usd": 822.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-08",
+      "position_units": 0,
+      "close_usd": 821.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-09",
+      "position_units": 0,
+      "close_usd": 830.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-10",
+      "position_units": 0,
+      "close_usd": 812.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-14",
+      "position_units": 0,
+      "close_usd": 801.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-15",
+      "position_units": 0,
+      "close_usd": 812.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-16",
+      "position_units": 0,
+      "close_usd": 817.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-17",
+      "position_units": 0,
+      "close_usd": 805.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-20",
+      "position_units": 0,
+      "close_usd": 816.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-21",
+      "position_units": 0,
+      "close_usd": 821.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-22",
+      "position_units": 0,
+      "close_usd": 828.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-24",
+      "position_units": 0,
+      "close_usd": 846.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-27",
+      "position_units": 0,
+      "close_usd": 848.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-28",
+      "position_units": 0,
+      "close_usd": 842.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-29",
+      "position_units": 0,
+      "close_usd": 841.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "position_units": 0,
+      "close_usd": 835.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "position_units": 0,
+      "close_usd": 836.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-03",
+      "position_units": 0,
+      "close_usd": 832.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "position_units": 0,
+      "close_usd": 824.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "position_units": 0,
+      "close_usd": 827.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-06",
+      "position_units": 0,
+      "close_usd": 838.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-07",
+      "position_units": 0,
+      "close_usd": 831.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "position_units": 0,
+      "close_usd": 833.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-11",
+      "position_units": 0,
+      "close_usd": 833.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "position_units": 0,
+      "close_usd": 822.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-13",
+      "position_units": 0,
+      "close_usd": 823.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-14",
+      "position_units": 0,
+      "close_usd": 811.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-17",
+      "position_units": 0,
+      "close_usd": 820.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "position_units": 0,
+      "close_usd": 813.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "position_units": 0,
+      "close_usd": 812.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "position_units": 0,
+      "close_usd": 820.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "position_units": 0,
+      "close_usd": 800.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "position_units": 0,
+      "close_usd": 803.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "position_units": 0,
+      "close_usd": 812.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "position_units": 0,
+      "close_usd": 811.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "position_units": 0,
+      "close_usd": 804.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "position_units": 0,
+      "close_usd": 810.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "position_units": 0,
+      "close_usd": 821.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "position_units": 0,
+      "close_usd": 822.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "position_units": 0,
+      "close_usd": 820.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "position_units": 0,
+      "close_usd": 820.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-08",
+      "position_units": 0,
+      "close_usd": 816.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "position_units": 0,
+      "close_usd": 818.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "position_units": 0,
+      "close_usd": 814.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "position_units": 0,
+      "close_usd": 812.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-15",
+      "position_units": 0,
+      "close_usd": 827.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "position_units": 0,
+      "close_usd": 819.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "position_units": 0,
+      "close_usd": 816.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "position_units": 0,
+      "close_usd": 813.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "position_units": 0,
+      "close_usd": 814.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-22",
+      "position_units": 0,
+      "close_usd": 823.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "position_units": 0,
+      "close_usd": 828.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-24",
+      "position_units": 0,
+      "close_usd": 828.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-25",
+      "position_units": 0,
+      "close_usd": 825.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-26",
+      "position_units": 0,
+      "close_usd": 820.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-29",
+      "position_units": 0,
+      "close_usd": 812.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "position_units": 0,
+      "close_usd": 819.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "position_units": 0,
+      "close_usd": 833.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "position_units": 0,
+      "close_usd": 824.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "position_units": 0,
+      "close_usd": 827.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "position_units": 0,
+      "close_usd": 816.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "position_units": 0,
+      "close_usd": 816.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "position_units": 0,
+      "close_usd": 812.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "position_units": 0,
+      "close_usd": 809.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "position_units": 0,
+      "close_usd": 814.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "position_units": 0,
+      "close_usd": 828.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "position_units": 0,
+      "close_usd": 839.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "position_units": 0,
+      "close_usd": 842.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "position_units": 0,
+      "close_usd": 853.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "position_units": 0,
+      "close_usd": 866.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "position_units": 0,
+      "close_usd": 861.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "position_units": 0,
+      "close_usd": 860.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "position_units": 0,
+      "close_usd": 858.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "position_units": 0,
+      "close_usd": 876.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "position_units": 0,
+      "close_usd": 878.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "position_units": 0,
+      "close_usd": 874.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "position_units": 0,
+      "close_usd": 868.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-02",
+      "position_units": 0,
+      "close_usd": 869.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "position_units": 0,
+      "close_usd": 878.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "position_units": 0,
+      "close_usd": 884.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "position_units": 0,
+      "close_usd": 885.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "position_units": 0,
+      "close_usd": 894.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "position_units": 0,
+      "close_usd": 929.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "position_units": 0,
+      "close_usd": 930.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "position_units": 0,
+      "close_usd": 931.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "position_units": 0,
+      "close_usd": 956.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "position_units": 0,
+      "close_usd": 945.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "position_units": 0,
+      "close_usd": 950.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "position_units": 0,
+      "close_usd": 964.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "position_units": 0,
+      "close_usd": 965.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "position_units": 0,
+      "close_usd": 981.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "position_units": 0,
+      "close_usd": 975.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-23",
+      "position_units": 0,
+      "close_usd": 973.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "position_units": 0,
+      "close_usd": 981.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "position_units": 0,
+      "close_usd": 996.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "position_units": 0,
+      "close_usd": 1006.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "position_units": 0,
+      "close_usd": 1003.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-02",
+      "position_units": 0,
+      "close_usd": 965.5000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "position_units": 0,
+      "close_usd": 907.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "position_units": 0,
+      "close_usd": 930.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "position_units": 0,
+      "close_usd": 918.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "position_units": 0,
+      "close_usd": 909.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "position_units": 0,
+      "close_usd": 920.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "position_units": 0,
+      "close_usd": 919.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "position_units": 0,
+      "close_usd": 940.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "position_units": 0,
+      "close_usd": 925.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "position_units": 0,
+      "close_usd": 921.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "position_units": 0,
+      "close_usd": 945.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "position_units": 0,
+      "close_usd": 946.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "position_units": 0,
+      "close_usd": 932.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "position_units": 0,
+      "close_usd": 941.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "position_units": 0,
+      "close_usd": 917.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "position_units": 0,
+      "close_usd": 932.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "position_units": 0,
+      "close_usd": 956.0000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "position_units": 0,
+      "close_usd": 951.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "position_units": 0,
+      "close_usd": 955.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "position_units": 0,
+      "close_usd": 959.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "position_units": 0,
+      "close_usd": 964.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "position_units": 0,
+      "close_usd": 977.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "position_units": 0,
+      "close_usd": 967.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "position_units": 0,
+      "close_usd": 965.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "position_units": 0,
+      "close_usd": 970.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "position_units": 0,
+      "close_usd": 980.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "position_units": 0,
+      "close_usd": 981.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "position_units": 0,
+      "close_usd": 990.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "position_units": 0,
+      "close_usd": 978.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "position_units": 0,
+      "close_usd": 973.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "position_units": 0,
+      "close_usd": 968.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "position_units": 0,
+      "close_usd": 973.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "position_units": 0,
+      "close_usd": 972.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "position_units": 0,
+      "close_usd": 961.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "position_units": 0,
+      "close_usd": 958.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "position_units": 0,
+      "close_usd": 969.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "position_units": 0,
+      "close_usd": 965.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "position_units": 0,
+      "close_usd": 973.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "position_units": 0,
+      "close_usd": 977.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "position_units": 0,
+      "close_usd": 973.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "position_units": 0,
+      "close_usd": 993.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "position_units": 0,
+      "close_usd": 987.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "position_units": 0,
+      "close_usd": 981.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "position_units": 0,
+      "close_usd": 979.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "position_units": 0,
+      "close_usd": 978.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "position_units": 0,
+      "close_usd": 988.8000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "position_units": 0,
+      "close_usd": 1013.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "position_units": 0,
+      "close_usd": 999.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "position_units": 0,
+      "close_usd": 1001.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "position_units": 0,
+      "close_usd": 1001.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "position_units": 0,
+      "close_usd": 1007.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "position_units": 0,
+      "close_usd": 1008.3000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "position_units": 0,
+      "close_usd": 1010.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "position_units": 0,
+      "close_usd": 1017.9000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "position_units": 0,
+      "close_usd": 1015.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "position_units": 0,
+      "close_usd": 1021.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "position_units": 0,
+      "close_usd": 1016.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "position_units": 0,
+      "close_usd": 1015.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "position_units": 0,
+      "close_usd": 1037.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "position_units": 0,
+      "close_usd": 1040.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "position_units": 0,
+      "close_usd": 1035.0,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "position_units": 0,
+      "close_usd": 1020.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "position_units": 0,
+      "close_usd": 1023.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "position_units": 0,
+      "close_usd": 1014.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "position_units": 0,
+      "close_usd": 1021.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "position_units": 0,
+      "close_usd": 1034.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "position_units": 0,
+      "close_usd": 1031.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "position_units": 0,
+      "close_usd": 1035.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "position_units": 0,
+      "close_usd": 1033.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "position_units": 0,
+      "close_usd": 1035.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "position_units": 0,
+      "close_usd": 1028.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "position_units": 0,
+      "close_usd": 1031.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "position_units": 0,
+      "close_usd": 1016.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "position_units": 0,
+      "close_usd": 1017.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "position_units": 0,
+      "close_usd": 1017.4000000000001,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "position_units": 0,
+      "close_usd": 1015.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "position_units": 0,
+      "close_usd": 1031.2,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "position_units": 0,
+      "close_usd": 1047.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "position_units": 0,
+      "close_usd": 1041.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "position_units": 0,
+      "close_usd": 1049.6,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "position_units": 0,
+      "close_usd": 1065.5,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "position_units": 0,
+      "close_usd": 1063.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "position_units": 0,
+      "close_usd": 1057.7,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "position_units": 0,
+      "close_usd": 1040.4,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "position_units": 0,
+      "close_usd": 1055.1,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "position_units": 0,
+      "close_usd": 1065.9,
+      "cash_usd": 100000.0,
+      "equity_usd": 100000.0,
+      "usdthb": 1.0,
+      "equity_thb": 100000.0,
+      "drawdown": 0.0,
+      "flags": {
+        "halve_sizing": false,
+        "kill_switch_review": false,
+        "flat": false
+      }
+    }
+  ],
+  "summary": {
+    "start_date": "2024-07-11",
+    "end_date": "2026-07-10",
+    "final_equity_usd": 100000.0,
+    "final_equity_thb": 100000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "current_drawdown": 0.0,
+    "risk_state": "normal",
+    "n_fills": 0
+  },
+  "system": "tfex_S50"
+}
