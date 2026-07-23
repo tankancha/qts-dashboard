@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "skip",
+  "generated_at": "2026-07-23T03:52:23+00:00",
+  "reason": "stale_lake",
+  "note": "expected the tfex session of 2026-07-22 in the lake but the newest bar is older (exchange holiday or late upstream data) - signals were not computed and nothing stale was published",
+  "leg": "tfex",
+  "as_of": "2026-07-23",
+  "calendar": "weekday",
+  "expected_session": "2026-07-22",
+  "max_age_sessions": 0,
+  "symbols": {
+    "S50": {
+      "last_bar": "2026-07-21",
+      "age_sessions": 1
+    }
+  }
+}
